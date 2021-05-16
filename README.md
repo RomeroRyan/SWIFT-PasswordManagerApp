@@ -1,8 +1,8 @@
 # 411-PasswordManager
 
 Created by,
-//  Ryan Romero         CWID 889823894
-//  Shervin Afrasiabi   CWID 887958510
+- Ryan Romero         CWID 889823894
+- Shervin Afrasiabi   CWID 887958510
 
 ## Project Description
 Technology has become interlock with daily life for many people in today's age. Due to this, many users are requires to create and keep track of passwords to login to their favorite websites and apps. Many users have resorted to creating easy to memorize passwords for such accounts, leaving their accounts vulnerable to dictionary attacks. 
