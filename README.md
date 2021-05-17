@@ -29,7 +29,10 @@ https://github.com/rromero26/411-PasswordManager
 ###### section 4: Test Results
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
-1 | Generate(12) working as intended | 1. open app 2. click on generate(12) button 3. examine table for result | Pass
+1 | Generate(12) working as intended | 
+1. open app
+2. click on generate(12) button 
+3. 1. examine table for result | Pass
 2 | sampleDes | sampleSteps | sampleResult
 3 | sampleDes | sampleSteps | sampleResult
 4 | sampleDes | sampleSteps | sampleResult
