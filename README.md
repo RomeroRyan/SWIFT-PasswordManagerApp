@@ -17,10 +17,10 @@ Technology has become interlocked with everyday life for people in today's age. 
 - Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 pro max (GUI does not line up well for small phones such as iPhone 8)
 
 ## Section 1: Functionalities
-- **generate(12)**: Generate a password string of 12 characters. Clicking on it will generate the password and instantly save it onto the table
-- **generate(16)**: Generate a password string of 16 characters. Clicking on it will generate the password and instantly save it onto the table
+- **generate(12)**: Generate a password string of 12 characters. Clicking on it will generate the password and instantly save it onto the table.
+- **generate(16)**: Generate a password string of 16 characters. Clicking on it will generate the password and instantly save it onto the table.
 - **Submit**: Upon clicking the submit button, the program takes the string in the textbox beside it and saves it onto the table (even if the textbox is empty).
-- **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle,then delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode
+- **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle, then click delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode
 
 ## Section 2: Architecture & Design
 - This app was created using storyboard and methods in the view controller to program actions/logic
