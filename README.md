@@ -35,7 +35,7 @@ Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
 1 | **Generate(12)** button working as intended | 1. Open app<br />2. Click on generate(12) button<br />3. Examine table for result | Pass
 2 | **Generate(16)** button working as intended | 1. Open app<br />2. Click on generate(16) button<br />3. Examine table for result | Pass
-3 | Check if **password_random(...)** method is being called where any of the 2 generate buttons are clicked  | 1. Have both test Cases 1 & 2 | Pass
+3 | Check if **password_random(...)** method is called properly when any of the 2 generate buttons are clicked  | 1. Pass both test cases 1 & 2 | Pass
 5 | **submit** button working as intended | 1. Open app<br />2. Input sample text "Password" in the textfield<br />3. Click on submit<br /> 4.Examine table to see if "Password" appears  | Pass
 6 | Entering and exiting Edit Mode using the **Remove** button | 1. Open app<br />2. Click on Remove button. Table should enter Editing Mode<br />3. Click on Remove button again to exit Editing Mode | Pass
 7 | List of Passwords persist after app closes | 1. Open app<br />2. Generate a password<br />3. Exit app and re-open app<br />4. Examine the table for results | Fail
