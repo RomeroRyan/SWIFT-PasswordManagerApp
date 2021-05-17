@@ -29,10 +29,14 @@ https://github.com/rromero26/411-PasswordManager
 ###### section 4: Test Results
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
-1 | **Generate(12)** working as intended | 1. open app<br />2. click on generate(12) button<br />3. examine table for result | Pass
-2 | **Generate(16)** working as intended | 1. open app<br />2. click on generate(16) button<br />3. examine table for result | Pass
-3 | Check if **password_random** method is being called where expected  | 1. Test Cases 1 & 2 pass | Pass
-4 | sampleDes | sampleSteps | sampleResult
+1 | **Generate(12)** button working as intended | 1. open app<br />2. click on generate(12) button<br />3. examine table for result | Pass
+2 | **Generate(16)** button working as intended | 1. open app<br />2. click on generate(16) button<br />3. examine table for result | Pass
+3 | Check if **password_random(...)** method is being called where any of the 2 generate buttons are clicked  | 1. Have both test Cases 1 & 2 | Pass
+5 | **submit** button working as intended | 1. open app<br />2. input sample text "Password" in the textfield<br />3. click on submit<br /> 4.examine table to see if "Password" appears  | Pass
+6 | sampleDes | sampleSteps | sampleResult
+7 | sampleDes | sampleSteps | sampleResult
+8 | sampleDes | sampleSteps | sampleResult
+9 | sampleDes | sampleSteps | sampleResult
 
 ###### Section 5: Future Work
 - Due to time contraints, we were unable to locally save passwords. Doing so would allow the list of passwords to persist between sessions. 
