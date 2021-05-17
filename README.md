@@ -29,9 +29,9 @@ https://github.com/rromero26/411-PasswordManager
 ###### section 4: Test Results
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
-1 | Generate(12) working as intended | 1. open app<br />2. click on generate(12) button<br />3. examine table for result | Pass
-2 | sampleDes | sampleSteps | sampleResult
-3 | sampleDes | sampleSteps | sampleResult
+1 | **Generate(12)** working as intended | 1. open app<br />2. click on generate(12) button<br />3. examine table for result | Pass
+2 | **Generate(16)** working as intended | 1. open app<br />2. click on generate(16) button<br />3. examine table for result | Pass
+3 | Check if **password_random** method is being called where expected  | 1. Test Cases 1 & 2 pass | Pass
 4 | sampleDes | sampleSteps | sampleResult
 
 ###### Section 5: Future Work
