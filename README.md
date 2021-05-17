@@ -14,18 +14,18 @@ Technology has become interlocked with everyday life for people in today's age. 
 - Users can also save their own passwords onto the table by entering into the available textbox and using the submit button, allowing the password to be easily copied to their iPhone's clipboard with one simple tap
 # Limitations
 - The program is currently unable to save passwords between sessions
-- Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 max
+- Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 pro max (GUI does not line up well for small phones such as iPhone 8)
 
 ## Section 1: Functionalities
-- **generate(12)**: generate a password string of 12 characters and saves it onto the table. Clicking on it will generate the password and instantly save it onto the table
-- **generate(16)**: generate a password string of 16 characters and saves it onto the table Clicking on it will generate the password and instantly save it onto the table
-- **Submit**: Upon clicking the submit button, the program takes the string in the textfield and saves it onto the table (even if the textfield is empty).
-- **Remove**: used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle,then delete, to remove *that* specific row. Use this to remove password you dont like or dont believe are strong. Click on the remove button again to exit editing mode
+- **generate(12)**: Generate a password string of 12 characters. Clicking on it will generate the password and instantly save it onto the table
+- **generate(16)**: Generate a password string of 16 characters. Clicking on it will generate the password and instantly save it onto the table
+- **Submit**: Upon clicking the submit button, the program takes the string in the textbox beside it and saves it onto the table (even if the textbox is empty).
+- **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle,then delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode
 
 ## Section 2: Architecture & Design
-- this app was created using storyboard and methods in the view controller to program actions/logic
+- This app was created using storyboard and methods in the view controller to program actions/logic
 - Use drill-down interface to create the table which is sued to display the passwords
-- no 3rd-party libraries or outside components were used for this application. We kept it simple. If we wish to improve on the application, it is entirely possible that some outside libraries and components can improve the application
+- No 3rd-party libraries or outside components were used for this application. We kept it simple. If we wish to improve on the application, it is entirely possible that some outside libraries and components can improve the application
 
 ## Section 3: Github Location
 https://github.com/rromero26/411-PasswordManager
@@ -34,13 +34,14 @@ https://github.com/rromero26/411-PasswordManager
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
 1 | **Generate(12)** button working as intended | 1. Open app<br />2. Click on generate(12) button<br />3. Examine table for result | Pass
-2 | **Generate(16)** button working as intended | 1. Ppen app<br />2. Click on generate(16) button<br />3. Examine table for result | Pass
+2 | **Generate(16)** button working as intended | 1. Open app<br />2. Click on generate(16) button<br />3. Examine table for result | Pass
 3 | Check if **password_random(...)** method is being called where any of the 2 generate buttons are clicked  | 1. Have both test Cases 1 & 2 | Pass
 5 | **submit** button working as intended | 1. Open app<br />2. Input sample text "Password" in the textfield<br />3. Click on submit<br /> 4.Examine table to see if "Password" appears  | Pass
-6 | Entering and exiting Edit mode using the **Remove** button | 1. Open app<br />2. Click on Remove button. Table should enter edit mode<br />3. Click on Remove button again to exit edit mode | Pass
-7 | List of Passwords persist after app closes | 1. Open app<br />2. Generate a password<br />3. Exit app and reopen app<br />4. Examine the table for password | Fail
+6 | Entering and exiting Edit Mode using the **Remove** button | 1. Open app<br />2. Click on Remove button. Table should enter Editing Mode<br />3. Click on Remove button again to exit Editing Mode | Pass
+7 | List of Passwords persist after app closes | 1. Open app<br />2. Generate a password<br />3. Exit app and re-open app<br />4. Examine the table for results | Fail
 8 | Test to see if the table is able to handle MANY passwords | 1. Open app<br />2. Generate 50+ passwords onto the table (Take note of first generated password).<br />3. Scroll through the table and search for the first generated password | Pass
 9 | Check if clicking on a password saves it to iPone's clipboard | 1. Open app<br />2. Generate a password and click on it in the table<br />3. Click on textbox and paste clipboard<br />4. Textbox should be populated with the generated password from step 2  | Pass
+10 | Test app on muiltple iPhone emulators | 1. Run app on 3+ different iPone emulators (12 pro max, 8, iPad)<br />2. Examine results of the GUI in each emulator for intended results | Fail
 
 
 ## Section 5: Future Work
