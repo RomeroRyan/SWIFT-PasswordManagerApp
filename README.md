@@ -23,9 +23,9 @@ Technology has become interlocked with everyday life for people in today's age. 
 - **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle, then click delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode.
 
 ## Section 2: Architecture & Design
-- This app was created using storyboard and methods in the view controller to program actions/logic
-- Use drill-down interface to create the table which is sued to display the passwords
-- No 3rd-party libraries or outside components were used for this application. We kept it simple. If we wish to improve on the application, it is entirely possible that some outside libraries and components can improve the application
+- This app was created using storyboard and methods in the view controller to program actions/logic.
+- Use drill-down interface to create the table which is used to display the passwords.
+- No 3rd-party libraries or outside components were used for this application. We kept it simple. 3rd-part libraries and components can be used to improve the application in the future however.
 
 ## Section 3: Github Location
 https://github.com/rromero26/411-PasswordManager
