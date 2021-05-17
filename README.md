@@ -33,14 +33,15 @@ https://github.com/rromero26/411-PasswordManager
 ### section 4: Test Results
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
-1 | **Generate(12)** button working as intended | 1. open app<br />2. click on generate(12) button<br />3. examine table for result | Pass
-2 | **Generate(16)** button working as intended | 1. open app<br />2. click on generate(16) button<br />3. examine table for result | Pass
+1 | **Generate(12)** button working as intended | 1. Open app<br />2. Click on generate(12) button<br />3. Examine table for result | Pass
+2 | **Generate(16)** button working as intended | 1. Ppen app<br />2. Click on generate(16) button<br />3. Examine table for result | Pass
 3 | Check if **password_random(...)** method is being called where any of the 2 generate buttons are clicked  | 1. Have both test Cases 1 & 2 | Pass
-5 | **submit** button working as intended | 1. open app<br />2. input sample text "Password" in the textfield<br />3. click on submit<br /> 4.examine table to see if "Password" appears  | Pass
-6 | Entering and exiting Edit mode using the **Remove** button | 1. open app<br />2.click on Remove button. table should enter edit mode<br />3. click on Remove button again to exit edit mode | Pass
-7 | Test to see if the table is able to handle MANY passwords | 1. open app<br />2.Generate 50+ passwords onto the table (Take note of first generated password).<br />3. Scroll through the table and search for the first generated password | Pass
-8 | Check if clicking on password saves password to clipboard | 1. open app<br />2.Generate a password and click on it in the table<br />3. Click/hold on textfield and paste what on clipboard. textfield should be populated with generated password from step 2  | Pass
-9 | sampleDes | sampleSteps | sampleResult
+5 | **submit** button working as intended | 1. Open app<br />2. Input sample text "Password" in the textfield<br />3. Click on submit<br /> 4.Examine table to see if "Password" appears  | Pass
+6 | Entering and exiting Edit mode using the **Remove** button | 1. Open app<br />2. Click on Remove button. Table should enter edit mode<br />3. Click on Remove button again to exit edit mode | Pass
+7 | List of Passwords persist after app closes | 1. Open app<br />2. Generate a password<br />3. Exit app and reopen app<br />4. Examine the table for password | Fail
+8 | Test to see if the table is able to handle MANY passwords | 1. Open app<br />2. Generate 50+ passwords onto the table (Take note of first generated password).<br />3. Scroll through the table and search for the first generated password | Pass
+9 | Check if clicking on a password saves it to iPone's clipboard | 1. Open app<br />2. Generate a password and click on it in the table<br />3. Click on textbox and paste clipboard<br />4. Textbox should be populated with the generated password from step 2  | Pass
+
 
 ### Section 5: Future Work
 - Due to time contraints, we were unable to locally save passwords. Doing so would allow the list of passwords to persist between sessions. 
