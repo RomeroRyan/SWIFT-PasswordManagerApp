@@ -5,7 +5,7 @@ Created by,
 - Shervin Afrasiabi   CWID 887958510
 
 # Author's Note:
-If you are not reading this readme.md file from github, please go to the github link under section 3 to continue reading the readme.md file. Or copy/paste this link here: https://github.com/rromero26/411-PasswordManager 
+If you are not reading this readme file from github, please go to the github link under section 3 to continue reading the file. Or copy/paste this link here: https://github.com/rromero26/411-PasswordManager .
 A lot of github specific markdown were used when creating this file. For a much more visually appealing read of this file, head to the github now
 
 # Project Description
@@ -37,9 +37,9 @@ Test Case | Test Description | Steps/Test Data | Result
 2 | **Generate(16)** button working as intended | 1. open app<br />2. click on generate(16) button<br />3. examine table for result | Pass
 3 | Check if **password_random(...)** method is being called where any of the 2 generate buttons are clicked  | 1. Have both test Cases 1 & 2 | Pass
 5 | **submit** button working as intended | 1. open app<br />2. input sample text "Password" in the textfield<br />3. click on submit<br /> 4.examine table to see if "Password" appears  | Pass
-6 | sampleDes | sampleSteps | sampleResult
-7 | sampleDes | sampleSteps | sampleResult
-8 | sampleDes | sampleSteps | sampleResult
+6 | Entering and exiting Edit mode using the **Remove** button | 1. open app<br />2.click on Remove button. table should enter edit mode<br />3. click on Remove button again to exit edit mode | Pass
+7 | Test to see if the table is able to handle MANY passwords | 1. open app<br />2.Generate 50+ passwords onto the table (Take note of first generated password).<br />3. Scroll through the table and search for the first generated password | Pass
+8 | Check if clicking on password saves password to clipboard | 1. open app<br />2.Generate a password and click on it in the table<br />3. Click/hold on textfield and paste what on clipboard. textfield should be populated with generated password from step 2  | Pass
 9 | sampleDes | sampleSteps | sampleResult
 
 ### Section 5: Future Work
