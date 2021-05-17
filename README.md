@@ -6,21 +6,21 @@ Created by,
 
 # Author's Note:
 If you are not reading this readme file from github, please go to the github link under section 3 to continue reading the file. Or copy/paste this link here: https://github.com/rromero26/411-PasswordManager .
-A lot of github specific markdown were used when creating this file. For a much more visually appealing read of this file, head to the github now
+A lot of github specific markdown were used when creating this file. For a much more visually appealing read of this file, head to the github now.
 
 # Project Description
 Technology has become interlocked with everyday life for people in today's age. Due to this fact, many users are required to create and keep track of passwords to interact with their favorite websites and apps. Many users have resorted to creating easy to memorize passwords for their accounts, leaving them vulnerable to dictionary attacks. 
 - We wanted to created a simple swift mobile app where users can quickly generate a strong password. Any passwords generated will be saved into a table where users can tap each entry and the password will be copied onto their iPhone's clipboard to easily paste onto any website or app. 
-- Users can also save their own passwords onto the table by entering into the available textbox and using the submit button, allowing the password to be easily copied to their iPhone's clipboard with one simple tap
+- Users can also save their own passwords onto the table by entering into the available textbox and using the submit button, allowing the password to be easily copied to their iPhone's clipboard with one simple tap.
 # Limitations
-- The program is currently unable to save passwords between sessions
-- Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 pro max (GUI does not line up well for small phones such as iPhone 8)
+- The program is currently unable to save passwords between sessions.
+- Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 pro max (GUI does not line up well for small phones such as iPhone 8 or center well with iPad).
 
 ## Section 1: Functionalities
 - **generate(12)**: Generate a password string of 12 characters. Clicking on it will generate the password and instantly save it onto the table.
 - **generate(16)**: Generate a password string of 16 characters. Clicking on it will generate the password and instantly save it onto the table.
 - **Submit**: Upon clicking the submit button, the program takes the string in the textbox beside it and saves it onto the table (even if the textbox is empty).
-- **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle, then click delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode
+- **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle, then click delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode.
 
 ## Section 2: Architecture & Design
 - This app was created using storyboard and methods in the view controller to program actions/logic
