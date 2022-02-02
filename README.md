@@ -1,32 +1,28 @@
 # 411-PasswordManager
-
-Created by,
 - Ryan Romero         r.romero.softwaredev@gmail.com
 - Shervin Afrasiabi   shervina@csu.fullerton.edu 
-
-# Author's Note:
-To view the original repository for this college project, please go to this link:  https://github.com/rromero26/411-PasswordManager
 
 # Project Description (Proposal)
 Technology has become interlocked with everyday life for people in today's age. Due to this fact, many users are required to create and keep track of passwords to interact with their favorite websites and apps. Many users have resorted to creating easy to memorize passwords for their accounts, leaving them vulnerable to dictionary attacks. 
 - We wanted to created a simple swift mobile app where users can quickly generate a strong password. Any passwords generated will be saved into a table where users can tap each entry and the password will be copied onto their iPhone's clipboard to easily paste onto any website or app. 
-- Users can also save their own passwords onto the table by entering into the available textbox and using the submit button, allowing the password to be easily copied to their iPhone's clipboard with one simple tap.
+- Users can also save their own passwords onto the table by entering into the available textbox and using the submit button, allowing for easy storage of password and the ability to be easily copied those passwords to their iPhone's clipboard with one simple tap.
+
 # Limitations
-- The program is currently unable to save passwords between sessions due to time limitations. (data persistancy)
+- The program is currently unable to save passwords between sessions due to time limitations. (no data persistency)
 - Currently, the GUI only seems to display properly on larger phones such as the iPhone 12 pro max (GUI does not line up well for small phones such as iPhone 8 or center well with iPad. This is most likely due to uncorrect use of constraints vairables).
 
-## Section 1: Functionalities
+## Functionalities
 - **generate(12)**: Generate a password string of 12 characters. Clicking on it will generate the password and instantly save it onto the table.
 - **generate(16)**: Generate a password string of 16 characters. Clicking on it will generate the password and instantly save it onto the table.
 - **Submit**: Upon clicking the submit button, the program takes the string in the textbox beside it and saves it onto the table (even if the textbox is empty).
 - **Remove**: Used to delete rows in the table. Upon clicking it, table enters editing mode where user can click on the red circle, then click delete, to remove *that* specific row. Use this to remove password you don't like or don't believe are strong. Click on the remove button again to exit editing mode.
 
-## Section 2: Architecture & Design
+## Architecture & Design
 - This app was created using storyboard and methods in the view controller to program actions/logic.
 - Use drill-down interface to create the table which is used to display the passwords.
 - No 3rd-party libraries or outside components were used for this application. We kept it simple. 3rd-part libraries and components can be used to improve the application in the future however.
 
-## section 3: Test Results
+## Test Results
 Test Case | Test Description | Steps/Test Data | Result
 --------- | ---------------- | --------------- | ---------
 1 | **Generate(12)** button working as intended | 1. Open app<br />2. Click on generate(12) button<br />3. Examine table for result | Pass
@@ -40,7 +36,7 @@ Test Case | Test Description | Steps/Test Data | Result
 10 | Test app on muiltple iPhone emulators | 1. Run app on 3+ different iPone emulators (12 pro max, 8, iPad)<br />2. Examine results of the GUI in each emulator for intended results | Fail
 
 
-## Section 4: Future Work
+## Ways to Improve
 - Due to time contraints, we were unable to locally save passwords. Doing so would allow the list of passwords to persist between sessions. 
 - Currently the random password generator picks from a bank of acceptable characters to generate the passwords. It does not do any other checks to see if the password is strong or weak. Can improve the algorithm to also check if password contains characteristics of strong passwords such as: 1 uppercase, 1 lowercase, 1 symbol, etc. The logic can be program to continue re-rolling passwords until a strong password is created based on criteria.
 - Currently the application is using swift's default random method. In most cases the default random methods of coding languages arent truly random. To improve on security, we can create our own randomNumber method that more in-line with true random number generators.
